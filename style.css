@@ -8,14 +8,25 @@ body{background-color: #eee; margin: 0;font-family: 'Roboto', sans-serif;}
 /* ! Container */
 
 .container{max-width: 1000px; margin: 0 auto; background-color: #fff;border-radius: 10px;  height: 800px; max-width: 800px; }
-.container_h{border-bottom: 2px solid #eee; padding: 30px;background-color: #fff; margin: 50px auto;}
-.container_2{padding: 30px;background-color: #fff; margin: 50px auto; border: 1px solid red;}
+.container_h{border-bottom: 2px solid #eee; padding: 30px;background-color: #fff; margin: 50px auto; margin-bottom: 0;}
+.container_2{padding: 30px;background-color: #fff; margin: 0 auto;}
 
 /* ! Button */
 .button{background-color: rgb(115, 170, 219); display: inline-block; padding: 10px; border-radius: 4px;color: #fff; font-weight: bold; border: 2px lightgray;}
 .button-tr{background-color: none; padding: 10px; display: inline; border-radius: 4px;color: lightgray; font-weight: bold; border: 1px solid lightgray;}
+.button-small{background-color: rgb(115, 170, 219); display: inline; padding: 8px; border-radius: 10px;color: #fff;font-size: 15px;}
+
+.button-azure{background-color: #34cceb; padding: 7px; border: 1px; border-radius: 10px; color: #fff; font-size: 12px;}
+.button-purple{background-color: #a722cc; padding: 7px; border: 1px; border-radius: 10px; color: #fff; font-size: 12px;}
+.button-green{background-color: #16df8e; padding: 7px; border: 1px; border-radius: 10px; color: #fff; font-size: 12px;}
+.button-orange{background-color: #fdb735; padding: 7px; border: 1px; border-radius: 10px; color: #fff; font-size: 12px;}
+
+
+
 
 /* Titoli + Frecce */
 
 .titolo h2::before {content: '\25BC';font-size: 13px;}
-.spunta p::before{content: '\2713'; color: lightgreen; font-size: 15px; border-radius: 5px solid red}
+.spunta p::before{content: '\2713'; color: lightgreen; font-size: 15px; border: 1px solid lightgreen; border-radius: 50%; padding: 3px; display: inline-block;}
+.cross p::before{content: '\2715'; color: red; font-size: 15px; border: 1px solid red; border-radius: 50%; padding: 3px; display: inline-block;}
+.bg-azure{background-color: blue; display: inline-block;}
