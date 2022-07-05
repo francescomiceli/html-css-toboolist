@@ -5,13 +5,13 @@ body{background-color: #eee; margin: 0;font-family: 'Roboto', sans-serif;}
 .header{background-color: #fff;}
 #logo{ display: flex; align-items: center; margin-left: 20px;}
 
-/* !Container */
+/* ! Container */
 
-.container{max-width: 1000px; margin: 0 auto; background-color: #fff;border-radius: 5px;  height: 800px; max-width: 800px; }
-.container_2{border-bottom: 2px solid #eee; padding: 30px;background-color: #fff; margin: 50px auto;}
+.container{max-width: 1000px; margin: 0 auto; background-color: #fff;border-radius: 10px;  height: 800px; max-width: 800px; }
+.container_h{border-bottom: 2px solid #eee; padding: 30px;background-color: #fff; margin: 50px auto;}
+.container_2{padding: 30px;background-color: #fff; margin: 50px auto; border: 1px solid red;}
 
-
-
+/* ! Button */
 .button{background-color: rgb(115, 170, 219); display: inline-block; padding: 10px; border-radius: 4px;color: #fff; font-weight: bold; border: 2px lightgray;}
 .button-tr{background-color: none; padding: 10px; display: inline; border-radius: 4px;color: lightgray; font-weight: bold; border: 1px solid lightgray;}
 
