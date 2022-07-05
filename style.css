@@ -15,3 +15,7 @@ body{background-color: #eee; margin: 0;font-family: 'Roboto', sans-serif;}
 .button{background-color: rgb(115, 170, 219); display: inline-block; padding: 10px; border-radius: 4px;color: #fff; font-weight: bold; border: 2px lightgray;}
 .button-tr{background-color: none; padding: 10px; display: inline; border-radius: 4px;color: lightgray; font-weight: bold; border: 1px solid lightgray;}
 
+/* Titoli + Frecce */
+
+.titolo h2::before {content: '\25BC';font-size: 13px;}
+.spunta p::before{content: '\2713'; color: lightgreen; font-size: 15px; border-radius: 5px solid red}
