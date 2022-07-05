@@ -1,0 +1,10 @@
+body{background-color: #eee; margin: 0;font-family: 'Roboto', sans-serif;}
+
+/* ! Header */
+
+.header{background-color: #fff;}
+#logo{ display: flex; align-items: center; margin-left: 10px;}
+
+/* !Container */
+
+.container{max-width: 1250px; margin: 0 auto; background-color: #fff;;}
